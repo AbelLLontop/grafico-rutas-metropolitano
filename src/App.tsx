@@ -3,7 +3,7 @@ import StationScheduleChart from './components/StationScheduleChart'
 function App() {
 
   return (
-    <div className='bg-gray-500 h-screen'>
+    <div className=' h-screen'>
     <StationScheduleChart/>
     </div>
   )
