@@ -7,13 +7,12 @@ export interface ConfiguracionTransporte {
     name: string
     subName: string
     type: string
-    turn: string
     schedule: Schedule
     stations: string[]
   }
   
   export interface Schedule {
-    NS: string
-    SN: string
+    NS: string[]
+    SN: string[]
   }
   

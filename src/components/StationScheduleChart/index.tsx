@@ -46,13 +46,12 @@ const initialData:ConfiguracionTransporte = {
   ],
   routes: [
     {
-      name: "Expreso 1",
+      name: "Expreso",
       subName: "1",
       type: "NS-SN",
-      turn: "mañana",
       schedule: {
-        NS: "lun - vie 05:00 a.m. - 09:00 a.m.",
-        SN: "lun - vie 05:30 a.m. - 09:30 a.m.",
+        NS: ["lun - vie 05:00 a.m. - 09:00 a.m."],
+        SN: ["lun - vie 05:30 a.m. - 09:30 a.m."],
       },
       stations: [
         "Estación Central",
@@ -69,6 +68,30 @@ const initialData:ConfiguracionTransporte = {
         "Matellini",
       ],
     },
+    {
+      name: "Super Expreso Norte",
+      subName: "SXN",
+      type: "NS-SN",
+      schedule: {
+        NS: ["lun - vie 05:00 a.m. - 09:00 a.m."],
+        SN: ["lun - vie 05:30 a.m. - 09:30 a.m."],
+      },
+      stations: [
+        "Estación Central",
+        "Estadio Nacional",
+        "Javier Prado",
+        "Canaval y Moreyra",
+        "Angamos",
+        "28 de Julio",
+        "Balta",
+        "Bulevar",
+        "Estadio Unión",
+        "Escuela Militar",
+        "Terán",
+        "Matellini",
+      ],
+    },
+ 
   ],
 };
 

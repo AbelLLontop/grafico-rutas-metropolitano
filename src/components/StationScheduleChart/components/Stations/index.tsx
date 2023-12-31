@@ -1,5 +1,3 @@
-import listaCantidad from "../../../utils";
-
 const StationText = ({ text }: { text: string }) => {
   return (
     <div className="relative h-[9rem] w-6">
